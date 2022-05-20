@@ -12,6 +12,11 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("photos");
+
+  // added short code
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);

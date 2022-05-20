@@ -2,6 +2,8 @@
 title: This is my fourth post.
 description: This is a post on My Blog about touchpoints and circling wagons.
 date: 2018-09-30
+image: //unsplash.it/510
+imageAlt: fourth post image
 tags: second tag
 layout: layouts/post.njk
 ---

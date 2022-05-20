@@ -2,6 +2,8 @@
 title: This is my second post.
 description: This is a post on My Blog about leveraging agile frameworks.
 date: 2018-07-04
+image: //unsplash.it/510
+imageAlt: second post image
 tags:
   - number 2
 layout: layouts/post.njk

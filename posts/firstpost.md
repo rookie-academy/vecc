@@ -2,6 +2,8 @@
 title: This is my first post.
 description: This is a post on My Blog about agile frameworks.
 date: 2018-05-01
+image: //unsplash.it/510
+imageAlt: first post image
 tags:
   - another tag
 layout: layouts/post.njk
