@@ -12,7 +12,9 @@
 * {
   box-sizing: border-box;
 }
-
+img {
+  width: 100%;
+}
 html,
 body {
   padding: 0;
@@ -26,11 +28,19 @@ p:last-child {
 }
 p,
 .tmpl-post li,
-img,
+.postlist,
+table{
+  max-width: 57.5em; /* 920px /16 */
+}
+.tmpl-post p > img {
+  max-width: 37.5em;
+}
+.postlist-image,
+.postlist-text,
+.post-tag,
 .carousel,
 .categories {
-  max-width: 37.5em; /* 600px /16 */
-
+  max-width: 500px;
 }
 p,
 .tmpl-post li {
@@ -348,4 +358,71 @@ footer > .company-logo {
   .snippet__logo3 {
     width: 12em;
   }
+  .tmpl-post > p > img {
+    max-width: 37.5em;
+  }
+  img[alt$=">"] {
+    float: right;
+    padding-left: 1rem;
+  }
+  img[alt$="<"] {
+    float: left;
+    padding-right: 1rem;
+  }
+  img[alt$="><"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: none!important;
+  }
+  img[alt$="270"] {
+    width: 270px;
+  }
+  img[alt$="170"] {
+    width: 170px;
+  }
+  img[alt$="600"] {
+    width: 600px;
+  }
+}
+table{
+  border-collapse: separate;
+  border-spacing: 0.3em;
+  border: none;
+}
+
+th{
+  border: none;
+  padding: 1rem;
+  text-align: center;
+}
+
+td{
+  border: none;
+  padding: 1rem;
+  vertical-align: top;
+  line-height: 1.5rem;
+}
+
+
+
+.tmpl-post > figcaption {
+  opacity: .9;
+  font-size: 0.75rem;
+  position: relative;
+  top: -1em;
+}
+
+a.button {
+  border-radius: 0.3em;
+  background: #27b9cd;
+  font-weight:700;
+  font-size: 1rem;
+  padding: .7em 1.3em;
+  text-decoration: none;
+  color: var(--white);
+  box-shadow: 1px 1px 2px var(--lightgray);
+  text-align: center;
+  max-width: fit-content;
 }
