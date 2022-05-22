@@ -382,6 +382,9 @@ footer > .company-logo {
   img[alt$="170"] {
     width: 170px;
   }
+  img[alt$="370"] {
+    width: 600px;
+  }
   img[alt$="600"] {
     width: 600px;
   }
@@ -399,7 +402,7 @@ th{
 }
 
 td{
-  border: none;
+  border: 2px solid var(--darkgray);
   padding: 1rem;
   vertical-align: top;
   line-height: 1.5rem;
