@@ -1,21 +1,21 @@
 {
   "title": "Victory Kidult Academy體適能運動中心",
-  "url": "https://vecc.group/",
+  "url": "https://sport.vecc.group/",
   "language": "zh-Hant",
   "description": "Victory Kidult Academy 是一間體適能運動中心，我們位於觀塘的分店提供至尊感覺統合、體能訓練、體適能運動、跆拳道、瑜伽、拳擊、舞蹈、感覺整合及一站式培訓課程。",
   "feed": {
     "subtitle": "Victory Kidult Academy 是一間體適能運動中心，我們位於觀塘的分店提供至尊感覺統合、體能訓練、體適能運動、跆拳道、瑜伽、拳擊、舞蹈、感覺整合及一站式培訓課程。",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://vecc.group/"
+    "id": "https://sport.vecc.group/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://vecc.group/feed/feed.json"
+    "url": "https://sport.vecc.group/feed/feed.json"
   },
   "author": {
     "name": "VECC TEAM",
     "email": "info@vecc.group",
-    "url": "https://vecc.group/about/"
+    "url": "https://sport.vecc.group/about/"
   }
 }

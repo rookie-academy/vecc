@@ -429,3 +429,9 @@ a.button {
   text-align: center;
   max-width: fit-content;
 }
+.company-logo {
+  width: 1em;
+  position: relative;
+  top:0.2em;
+  margin-left: 0.3em;
+}
