@@ -11,7 +11,7 @@ Victory Kidult Academy 是一間體適能運動中心，我們位於觀塘的分
 
 讚好 Victory Kidult Academy Facebook  專頁獲取更多免費資訊及優惠課堂：
 
-[https://www.facebook.com/fitnessaaa/ ](https://www.facebook.com/fitnessaaa/)
+[https://www.facebook.com/fitnessaaa/ ](https://www.facebook.com/victorykidultacademy/)
 
 歡迎各大機構合作舉辦不同類型的課程及租借場地。
 
