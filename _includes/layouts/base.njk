@@ -7,6 +7,13 @@
     <meta name="description" content="{{ description or metadata.description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
+    <meta name="robots" content="max-image-preview:large">
+    <meta property="og:url"           content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:type"          content="article" />
+    <meta property="og:title"         content={{ title }} />
+    <meta property="og:description"   content={{ description }} />
+    <meta property="og:image"         content="{{ metadata.url }}{{ image }}" />
+    
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">

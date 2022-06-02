@@ -8,7 +8,11 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
+const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
+
 module.exports = function(eleventyConfig) {
+  // add shortcode for emoji read time
+  eleventyConfig.addPlugin(emojiReadTime);
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
