@@ -6,8 +6,7 @@ eleventyNavigation:
   key: 關於我們
   order: 3
 ---
-
-Victory Kidult Academy 是一間體適能運動中心，我們位於觀塘的分店提供至尊感覺統合、體能訓練、體適能運動、跆拳道、瑜伽、拳擊、舞蹈、感覺整合及一站式培訓課程。
+Victory Kidult Academy凱勵潛能發展中心現誠為 貴校提供身心靈課程、教育講座及校外活動，增加師生互動和學生的參與性。除了群體教育活動，也有小班教學及單對單訓練。對象分為兒童、青少年、成人、長者、老師及家長。
 
 讚好 Victory Kidult Academy Facebook  專頁獲取更多免費資訊及優惠課堂：
 
