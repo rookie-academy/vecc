@@ -14,4 +14,4 @@ Victory Kidult Academy凱勵潛能發展中心現誠為 貴校提供身心靈課
 
 歡迎各大機構合作舉辦不同類型的課程及租借場地。
 
-查詢熱線 [9548 9211](https://bit.ly/3MpMsKl)（本WhatsApp)
+查詢熱線 [5687 9658](https://bit.ly/4njvn72)（本WhatsApp)
